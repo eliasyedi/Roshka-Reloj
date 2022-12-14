@@ -30,5 +30,6 @@ public class RelojDemo{
 
 		
 		System.out.println("restaReloj(): " + hora1.restaReloj(hora2));
+		System.out.println(hora1.verHoras());
 	}
 }

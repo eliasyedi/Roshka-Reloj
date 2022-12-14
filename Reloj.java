@@ -157,4 +157,9 @@ public class Reloj{
 		return true;
 
 	}
+
+	public String verHoras(){
+		return String.format("Son las %d horas, %d minutos y %d segundos", this.hora, this.minutos, this.segundos);
+	}
+
 }
